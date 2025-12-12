@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/RethikRaj/GO/methods"
+	"github.com/RethikRaj/GO/interfaces"
+	// "github.com/RethikRaj/GO/methods"
 	// "github.com/RethikRaj/GO/arraysandslices"
 	// "github.com/RethikRaj/GO/structs"
 	// "github.com/RethikRaj/GO/pointers"
@@ -56,5 +57,10 @@ func main(){
 
 	// maps.Map1()
 
-	methods.Method1()
+	// methods.Method1()
+
+	// interfaces.Interface1()
+	// interfaces.Interface2()
+	// interfaces.Interface3()
+	interfaces.Interface4()
 }
