@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/RethikRaj/GO/methods"
 	// "github.com/RethikRaj/GO/arraysandslices"
 	// "github.com/RethikRaj/GO/structs"
 	// "github.com/RethikRaj/GO/pointers"
@@ -11,7 +12,7 @@ import (
 	// "github.com/RethikRaj/GO/functions"
 	// "github.com/RethikRaj/GO/packages"
 	// "github.com/RethikRaj/GO/variables"
-	"github.com/RethikRaj/GO/maps"
+	// "github.com/RethikRaj/GO/maps"
 )
 
 func main(){
@@ -53,5 +54,7 @@ func main(){
 	// arraysandslices.Slice4()
 	// arraysandslices.Slice6()
 
-	maps.Map1()
+	// maps.Map1()
+
+	methods.Method1()
 }
