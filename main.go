@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/RethikRaj/GO/enums"
+	"github.com/RethikRaj/GO/http_server"
+	// "github.com/RethikRaj/GO/enums"
 	// "github.com/RethikRaj/GO/interfaces"
 	// "github.com/RethikRaj/GO/methods"
 	// "github.com/RethikRaj/GO/arraysandslices"
@@ -17,7 +18,7 @@ import (
 	// "github.com/RethikRaj/GO/maps"
 )
 
-func main(){
+func main() {
 	fmt.Println("Hello I am a GOPHER")
 
 	// packages.Package1()
@@ -65,5 +66,9 @@ func main(){
 	// interfaces.Interface3()
 	// interfaces.Interface4()
 
-	enums.Enum1()
+	// enums.Enum1()
+
+	// http_server.StartServer()
+	// http_server.StartServer2()
+	http_server.StartServer3()
 }
